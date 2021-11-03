@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GeoHis</string>
+    <string name="medhis">Ancient  History</string>
+    <string name="play">PLAY!</string>
+    <string name="nickname">abobus_17</string>
+    <string name="medieval_history">Medieval History</string>
+    <string name="modern_history">Modern History</string>
+    <string name="general_geography">General Geography</string>
+    <string name="ancient_history">Ancient History</string>
+    <string name="train_your_memory">Train Your Memory</string>
+    <string name="events_on_map">Events on Map</string>
+    <string name="map">Map</string>
+</resources>
