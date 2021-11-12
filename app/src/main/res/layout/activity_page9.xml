@@ -29,27 +29,27 @@
         <Button
             android:id="@+id/button"
             style="@style/TextViewPrimary"
-            android:text="Profile Settings" />
+            android:text="@string/profile_settings" />
 
         <Button
             android:id="@+id/button2"
             style="@style/TextViewPrimary"
-            android:text="Language" />
+            android:text="@string/language" />
 
         <Button
             android:id="@+id/button3"
             style="@style/TextViewPrimary"
-            android:text="Sounds" />
+            android:text="@string/sounds" />
 
         <Button
             android:id="@+id/button4"
             style="@style/TextViewPrimary"
-            android:text="How To Play" />
+            android:text="@string/how_to_play" />
 
         <Button
             android:id="@+id/button5"
             style="@style/TextViewPrimary"
-            android:text="Help" />
+            android:text="@string/help" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
