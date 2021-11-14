@@ -15,4 +15,19 @@
     <string name="sounds">Sounds</string>
     <string name="how_to_play">How To Play</string>
     <string name="help">Help</string>
+    <string name="germany">Germany</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="belgium">Belgium</string>
+    <string name="italy">Italy</string>
+    <string name="profile">Profile</string>
+    <string name="rating">Rating</string>
+    <string name="menu">Menu</string>
+    <string name="ForImage">ForImage</string>
+    <string name="kyrgyzstan">Kyrgyzstan</string>
+    <string name="china">China</string>
+    <string name="kazakhstan">Kazakhstan</string>
+    <string name="russia">Russia</string>
+    <string name="try_again">Try Again</string>
+    <string name="menu">Menu</string>
+    <string name="you_lose">You lose!</string>
 </resources>

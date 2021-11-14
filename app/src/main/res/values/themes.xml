@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyApplication" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -61,7 +61,7 @@
         <item name="android:shadowDy">8</item>
         <item name="android:shadowRadius">5</item>
     </style>
-    
+
     <style name="toolbar">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/white</item>
@@ -90,5 +90,12 @@
         <item name="android:layout_margin">5dp</item>
         <item name="android:background">@drawable/custom_button2</item>
         <item name="fontFamily">@font/ranchers</item>
+    </style>
+
+    <style name="Geohisload">
+        <item name="android:text">GeoHis</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
     </style>
 </resources>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".page_7"
+            android:exported="true" />
+        <activity
             android:name=".page10"
             android:exported="true" />
         <activity

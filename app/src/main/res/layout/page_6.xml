@@ -19,12 +19,12 @@
         <Button
             android:id="@+id/button"
             style="@style/TextViewPrimary2"
-            android:text="Bulgaria" />
+            android:text="@string/china" />
 
         <Button
             android:id="@+id/button2"
             style="@style/TextViewPrimary2"
-            android:text="Germany" />
+            android:text="@string/kyrgyzstan" />
 
     </LinearLayout>
 
@@ -39,12 +39,12 @@
         <Button
             android:id="@+id/button3"
             style="@style/TextViewPrimary2"
-            android:text="Belgium" />
+            android:text="@string/kazakhstan" />
 
         <Button
             android:id="@+id/button4"
             style="@style/TextViewPrimary2"
-            android:text="Italy" />
+            android:text="@string/russia" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,13 +59,15 @@
             android:id="@+id/imageView2"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            app:srcCompat="@drawable/arrow" />
+            app:srcCompat="@drawable/arrow"
+            android:contentDescription="@string/ForImage"/>
 
         <ImageView
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="7dp"
-            app:srcCompat="@drawable/lvl" />
+            app:srcCompat="@drawable/lvl"
+            android:contentDescription="@string/ForImage"/>
 
         <LinearLayout
             android:id="@+id/linearLayout2"
@@ -76,31 +78,35 @@
                 android:id="@+id/imageView3"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/heart" />
+                app:srcCompat="@drawable/heart"
+                android:contentDescription="@string/ForImage"/>
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/heart" />
+                app:srcCompat="@drawable/heart"
+                android:contentDescription="@string/ForImage"/>
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/heart" />
+                app:srcCompat="@drawable/heart"
+                android:contentDescription="@string/ForImage"/>
         </LinearLayout>
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/belgium" />
+        app:srcCompat="@drawable/image"
+        android:contentDescription="@string/ForImage"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

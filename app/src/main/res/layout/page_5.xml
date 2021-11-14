@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellowGH"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="220dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings"
+        android:contentDescription="@string/ForImage"/>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/TextViewPrimary"
+            android:text="@string/profile_settings" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/TextViewPrimary"
+            android:text="@string/language" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/TextViewPrimary"
+            android:text="@string/sounds" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/TextViewPrimary"
+            android:text="@string/how_to_play" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/TextViewPrimary"
+            android:text="@string/help" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow"
+        android:contentDescription="@string/ForImage"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/toolbarGH"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@id/constraint"
+            app:layout_constraintStart_toStartOf="@id/constraint"
+            app:layout_constraintTop_toTopOf="@id/constraint">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="129dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/menu"
+                android:contentDescription="@string/ForImage"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="156dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/profile"
+                android:contentDescription="@string/ForImage"/>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="123dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/rating"
+                android:contentDescription="@string/ForImage"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/constraint"
+            app:layout_constraintEnd_toEndOf="@id/constraint"
+            app:layout_constraintStart_toStartOf="@id/constraint"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout3">
+
+            <TextView
+                style="@style/toolbar"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/menu" />
+
+            <TextView
+                style="@style/toolbar"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/profile" />
+
+            <TextView
+                style="@style/toolbar"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/rating" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
