@@ -14,7 +14,44 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="little">
+
+
+
+
+
+
+
+    <style name="TextViewPrimary">
+        <item name="android:layout_width">287dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="background">@drawable/custom_button</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:background">@drawable/custom_button</item>
+
+    </style>
+
+    <style name="TextViewPrimary2">
+        <item name="android:layout_width">151dp</item>
+        <item name="android:layout_height">86dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/custom_button2</item>
+        <item name="fontFamily">@font/ranchers</item>
+    </style>
+
+    <style name="Geohisload">
+        <item name="android:text">GeoHis</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+<style name="little">
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">@font/ranchers</item>
@@ -67,35 +104,107 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
-
-    <style name="TextViewPrimary">
-        <item name="android:layout_width">287dp</item>
-        <item name="android:layout_height">46dp</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="background">@drawable/custom_button</item>
-        <item name="textAllCaps">false</item>
-        <item name="android:layout_margin">5dp</item>
+    <style name="N1">
+        <item name="android:textSize">36sp</item>
+        <item name="android:text">#1</item>
         <item name="android:fontFamily">@font/ranchers</item>
-        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="N2">
+        <item name="android:textSize">36sp</item>
+        <item name="android:text">#2</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="N3">
+        <item name="android:textSize">36sp</item>
+        <item name="android:text">#3</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="Nick">
+        <item name="android:text">Abobus</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+    </style>
+    <style name="rating_lvl">
+        <item name="android:text">Rating: 7</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+    </style>
+    <style name="level">
+        <item name="android:text">Level: Advanced</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+    </style>
+    <style name="game_history">
+        <item name="android:text">Game History</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="profile_settings">
+        <item name="android:text">Profile Settings</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:centerX">10sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="change_nick">
+        <item name="android:text">Change Username</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="share">
+        <item name="android:text">Share</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
 
     </style>
-
-    <style name="TextViewPrimary2">
-        <item name="android:layout_width">151dp</item>
-        <item name="android:layout_height">86dp</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="textAllCaps">false</item>
-        <item name="android:layout_margin">5dp</item>
-        <item name="android:background">@drawable/custom_button2</item>
-        <item name="fontFamily">@font/ranchers</item>
-    </style>
-
-    <style name="Geohisload">
+    <style name="geohisload">
         <item name="android:text">GeoHis</item>
         <item name="android:textSize">64sp</item>
         <item name="android:fontFamily">@font/ranchers</item>
         <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+
+
+    <style name="trainyourmem">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">Train Your Memory</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+
+
+
+    </style>
+    <style name="next">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">NEXT</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">10sp</item>
+        <item name="android:layout_marginEnd">15sp</item>
+    </style>
+    <style name="Geosphere">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">Geosphere</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:gravity">center</item>
+
+
+
     </style>
 </resources>

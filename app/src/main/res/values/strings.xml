@@ -28,6 +28,18 @@
     <string name="kazakhstan">Kazakhstan</string>
     <string name="russia">Russia</string>
     <string name="try_again">Try Again</string>
-    <string name="menu">Menu</string>
     <string name="you_lose">You lose!</string>
+    <string name="n1">#1</string>
+    <string name="n2">#2</string>
+    <string name="n3">#3</string>
+    <string name="randmoj">deny</string>
+    <string name="image1">arrow</string>
+    <string name="Profile">Profile</string>
+    <string name="Rating">Rating</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_secondactivity">Secondactivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
 </resources>
