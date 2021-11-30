@@ -21,10 +21,10 @@ class MainActivityAncient : AppCompatActivity() {
             startActivity(Intent(this, MainActivityGeo_memory::class.java))
 
 
-            val click2 = findViewById<ImageButton>(R.id.imageView2)
+            val click2 = findViewById<ImageButton>(R.id.back_ancient)
 
             click2.setOnClickListener {
-                startActivity(Intent(this, MainActivityGeo_memory::class.java))
+                startActivity(Intent(this, MainActivityMain::class.java))
 
             }
 
