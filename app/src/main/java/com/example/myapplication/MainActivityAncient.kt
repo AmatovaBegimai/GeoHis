@@ -34,6 +34,8 @@ class MainActivityAncient : AppCompatActivity() {
             startActivity(Intent(this, MainActivitySettings::class.java))
 
         }
+
+        //navbar
         val click4 = findViewById<ImageView>(R.id.imageView6)
 
         click4.setOnClickListener {
@@ -51,6 +53,7 @@ class MainActivityAncient : AppCompatActivity() {
         click6.setOnClickListener {
             startActivity(Intent(this, MainActivityRating::class.java))
         }
+        //navbar
     }
 }
 
