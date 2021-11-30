@@ -10,11 +10,7 @@ class MainActivityGeo_memory : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_geo_memory)
 
-        val button = findViewById<Button>(R.id.but_train)
 
 
-        button.setOnClickListener {
-            startActivity(Intent(this, MainActivityAncient::class.java))
-        }
     }
 }

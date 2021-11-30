@@ -12,10 +12,10 @@ class MainActivityAncient : AppCompatActivity() {
         //body
 
         //body
-        val click_ancient1 = findViewById<Button>(R.id.but_train)
+        val click1 = findViewById<Button>(R.id.but_train)
 
 
-        click_ancient1.setOnClickListener {
+        click1.setOnClickListener {
             startActivity(Intent(this, MainActivityGeo_memory::class.java))
         }
     }
