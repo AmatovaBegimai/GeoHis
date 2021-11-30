@@ -97,6 +97,7 @@
 
             <Button
                 style="@style/medium"
+                android:id="@+id/medieval_history"
                 android:layout_width="310dp"
                 android:layout_height="80dp"
                 android:background="@drawable/button_bg1"

@@ -16,7 +16,7 @@ class MainActivityAncient : AppCompatActivity() {
 
 
         click.setOnClickListener {
-            startActivity(Intent(this, MainActivityAncient::class.java))
+            startActivity(Intent(this, MainActivityGeo_memory::class.java))
         }
     }
 }
