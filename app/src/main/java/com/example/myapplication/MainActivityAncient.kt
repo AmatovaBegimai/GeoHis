@@ -35,7 +35,6 @@ class MainActivityAncient : AppCompatActivity() {
 
         }
 
-
     }
 }
 
