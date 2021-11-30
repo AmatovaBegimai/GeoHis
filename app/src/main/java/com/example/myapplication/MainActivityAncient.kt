@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.ImageView
 
 class MainActivityAncient : AppCompatActivity() {
     @SuppressLint("WrongViewCast")
@@ -20,16 +21,38 @@ class MainActivityAncient : AppCompatActivity() {
         click1.setOnClickListener {
             startActivity(Intent(this, MainActivityGeo_memory::class.java))
 
+        }
+        val click2 = findViewById<Button>(R.id.back_ancient)
 
-            val click2 = findViewById<Button>(R.id.back_ancient)
+        click2.setOnClickListener {
+            startActivity(Intent(this, MainActivityMain::class.java))
 
-            click2.setOnClickListener {
-                startActivity(Intent(this, MainActivityMain::class.java))
+        }
+        val click3 = findViewById<ImageButton>(R.id.imageView)
 
-            }
+        click3.setOnClickListener {
+            startActivity(Intent(this, MainActivitySettings::class.java))
 
+        }
+        val click4 = findViewById<ImageView>(R.id.imageView6)
+
+        click4.setOnClickListener {
+            startActivity(Intent(this, MainActivityMain::class.java))
+
+        }
+        val click5 = findViewById<ImageView>(R.id.imageView7)
+
+        click5.setOnClickListener {
+            startActivity(Intent(this, MainActivityProfile::class.java))
+
+        }
+        val click6 = findViewById<ImageView>(R.id.imageView9)
+
+        click6.setOnClickListener {
+            startActivity(Intent(this, MainActivityRating::class.java))
         }
     }
 }
+
 
 
