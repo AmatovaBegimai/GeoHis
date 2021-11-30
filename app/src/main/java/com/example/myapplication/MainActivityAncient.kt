@@ -35,25 +35,7 @@ class MainActivityAncient : AppCompatActivity() {
 
         }
 
-        //navbar
-        val click4 = findViewById<ImageView>(R.id.imageView6)
 
-        click4.setOnClickListener {
-            startActivity(Intent(this, MainActivityMain::class.java))
-
-        }
-        val click5 = findViewById<ImageView>(R.id.imageView7)
-
-        click5.setOnClickListener {
-            startActivity(Intent(this, MainActivityProfile::class.java))
-
-        }
-        val click6 = findViewById<ImageView>(R.id.imageView9)
-
-        click6.setOnClickListener {
-            startActivity(Intent(this, MainActivityRating::class.java))
-        }
-        //navbar
     }
 }
 

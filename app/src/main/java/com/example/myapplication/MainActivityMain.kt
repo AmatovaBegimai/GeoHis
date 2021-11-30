@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.cardview.widget.CardView
 
 class MainActivityMain : AppCompatActivity() {
@@ -22,10 +23,15 @@ class MainActivityMain : AppCompatActivity() {
             click2.setOnClickListener {
                 startActivity(Intent(this, MainActivityGenGeography::class.java))
             }
+        val click3 = findViewById<ImageButton>(R.id.imageView)
+
+        click3.setOnClickListener {
+            startActivity(Intent(this, MainActivitySettings::class.java))
+
+        }
 
 
             }
-
-        }
+}
 
 
