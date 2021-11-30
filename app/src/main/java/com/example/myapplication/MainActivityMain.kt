@@ -17,10 +17,12 @@ class MainActivityMain : AppCompatActivity() {
         click.setOnClickListener {
             startActivity(Intent(this, MainActivityAncient::class.java))
 
-            val button = findViewById<Button>(R.id.medieval_history)
+            val click1 = findViewById<Button>(R.id.medieval_history)
 
-            click.setOnClickListener {
+            click1.setOnClickListener {
                 startActivity(Intent(this, MainActivityAncient::class.java))
+
+
 
 
 
