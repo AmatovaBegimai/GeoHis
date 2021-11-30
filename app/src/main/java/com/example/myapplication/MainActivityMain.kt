@@ -11,14 +11,14 @@ class MainActivityMain : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_main)
 
-        val click_main = findViewById<Button>(R.id.ancient_his)
+        val click = findViewById<Button>(R.id.ancient_his)
 
-        click_main.setOnClickListener {
+        click.setOnClickListener {
             startActivity(Intent(this, MainActivityAncient::class.java))
 
-            val click_main1 = findViewById<Button>(R.id.medieval_history)
+            val click1 = findViewById<Button>(R.id.medieval_history)
 
-            click_main1.setOnClickListener {
+            click1.setOnClickListener {
                 startActivity(Intent(this, MainActivityAncient::class.java))
 
 
