@@ -12,26 +12,15 @@ class MainActivityMain : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_main)
 
-        val click = findViewById<Button>(R.id.ancient_his)
 
-        click.setOnClickListener {
+        val main = findViewById<Button>(R.id.ancient_his)
+
+        main.setOnClickListener {
             startActivity(Intent(this, MainActivityAncient::class.java))
-
-            }
-            val click2 = findViewById<Button>(R.id.general_button)
-
-            click2.setOnClickListener {
-                startActivity(Intent(this, MainActivityGenGeography::class.java))
-            }
-        val click3 = findViewById<ImageButton>(R.id.imageView)
-
-        click3.setOnClickListener {
-            startActivity(Intent(this, MainActivitySettings::class.java))
-
         }
 
 
-            }
+    }
 }
 
 
