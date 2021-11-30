@@ -16,17 +16,16 @@ class MainActivityMain : AppCompatActivity() {
         click.setOnClickListener {
             startActivity(Intent(this, MainActivityAncient::class.java))
 
-            val click1 = findViewById<Button>(R.id.general_button)
+            }
+            val click2 = findViewById<Button>(R.id.general_button)
 
-            click1.setOnClickListener {
+            click2.setOnClickListener {
                 startActivity(Intent(this, MainActivityGenGeography::class.java))
+            }
 
 
-
-
-
-        }
+            }
 
         }
-    }
-}
+
+
