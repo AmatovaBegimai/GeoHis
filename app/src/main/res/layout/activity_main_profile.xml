@@ -202,15 +202,4 @@
                 android:text="@string/Rating" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
-
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
+</androidx.constraintlayout.widget.ConstraintLayout>

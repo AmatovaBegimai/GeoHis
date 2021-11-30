@@ -44,19 +44,36 @@
         style="@style/Geosphere"/>
 
 
-
-
-    <Button
-        android:id="@+id/button7"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50sp"
-        android:background="@drawable/next_button"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/button5"
-        style="@style/next"/>
+        android:layout_marginTop="50sp">
 
+        <Button
+            android:id="@+id/button7"
+            style="@style/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            style="@style/nexttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ranchers"
+            app:layout_constraintBottom_toBottomOf="@+id/button7"
+            app:layout_constraintEnd_toEndOf="@+id/button7"
+            app:layout_constraintStart_toStartOf="@+id/button7"
+            app:layout_constraintTop_toTopOf="@+id/button7"
+            android:textColor="@color/white"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
         android:id="@+id/textView6"
@@ -70,6 +87,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imageView13"
+        android:contentDescription="@string/ForImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/line_t"

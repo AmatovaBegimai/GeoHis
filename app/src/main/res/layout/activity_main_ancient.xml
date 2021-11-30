@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/yellowGH"
-    tools:context=".MainActivity">
+    android:background="@color/mintGH">
 
-    <TextView
-        android:id="@+id/text"
-        style="@style/little"
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginEnd="75dp"
         android:layout_marginTop="15dp"
-        android:text="@string/nickname"
+        app:srcCompat="@drawable/arrow"
         app:layout_constraintEnd_toStartOf="@id/imageView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        android:contentDescription="@string/ForImage">
+    </ImageView>
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,67 +26,59 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="240dp"
         android:layout_marginTop="15dp"
-        app:layout_constraintBottom_toBottomOf="@id/text"
+        app:layout_constraintBottom_toBottomOf="@id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/settings"
-        android:contentDescription="@string/ForImage"/>
+        android:contentDescription="@string/ForImage">
+    </ImageView>
+
+
+
 
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        app:layout_constraintBottom_toTopOf="@id/linearLayout1"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"
+        app:layout_constraintBottom_toTopOf="@id/linearLayout1"
         tools:ignore="UseCompoundDrawables">
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/logo"
-            android:contentDescription="@string/ForImage"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/ranchers"
             android:gravity="bottom"
-            android:text="@string/app_name"
-            android:textSize="64sp"
-            style="@style/titles"/>
+            android:text="@string/ancient_history"
+            style="@style/titles"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/line_4"
+            android:contentDescription="@string/ForImage">
+        </ImageView>
+
     </LinearLayout>
 
     <LinearLayout
-        android:id="@id/linearLayout1"
+        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            app:cardCornerRadius="15dp">
-
-            <Button
-                style="@style/medium"
-                android:layout_width="310dp"
-                android:layout_height="80dp"
-                android:background="@drawable/button_bg"
-                android:fontFamily="@font/ranchers"
-                android:text="@string/ancient_history" />
-        </androidx.cardview.widget.CardView>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@id/linear">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView1"
@@ -96,25 +89,12 @@
 
             <Button
                 style="@style/medium"
+                android:id="@+id/but_train"
                 android:layout_width="310dp"
                 android:layout_height="80dp"
                 android:background="@drawable/button_bg1"
-                android:text="@string/medieval_history" />
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            app:cardCornerRadius="15dp">
-
-            <Button
-                style="@style/medium"
-                android:layout_width="310dp"
-                android:layout_height="80dp"
-                android:background="@drawable/button_bg"
-                android:text="@string/modern_history" />
+                android:text="@string/train_your_memory"
+                android:gravity="center"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -128,21 +108,47 @@
                 android:layout_width="310dp"
                 android:layout_height="80dp"
                 android:background="@drawable/button_bg1"
-                android:text="@string/general_geography" />
+                android:text="@string/events_on_map"
+                android:gravity="center"/>
         </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="@id/linearLayout1"
+        app:layout_constraintStart_toStartOf="@id/linearLayout1"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout1">
+
+        <Button
+            style="@style/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="@string/play"
+            android:textSize="48sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/play"
+            android:contentDescription="@string/ForImage"/>
+    </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="170dp"
         android:background="@color/toolbarGH"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout1">
+        app:layout_constraintTop_toBottomOf="@id/linear">
 
         <LinearLayout
             android:id="@+id/linearLayout3"
@@ -208,4 +214,5 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

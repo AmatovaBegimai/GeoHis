@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="kg.tsi.geohis">
 
     <application
         android:allowBackup="true"
@@ -8,18 +8,39 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
+        android:theme="@style/Theme.Design.NoActionBar">
         <activity
-            android:name=".page_7"
-            android:exported="true" />
+            android:name=".MainActivityLoading"
+            android:exported="false" />
         <activity
-            android:name=".page10"
-            android:exported="true" />
+            android:name=".MainActivityGeo_memory"
+            android:exported="false" />
         <activity
-            android:name=".page9"
-            android:exported="true" />
+            android:name=".MainActivityRating"
+            android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityProfile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityLoseGame"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityGeoMap"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivitySettings"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityGeoBelgium"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityGenGeography"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityAncient"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityMain"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,10 +48,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

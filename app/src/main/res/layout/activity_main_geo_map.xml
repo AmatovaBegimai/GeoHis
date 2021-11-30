@@ -19,12 +19,14 @@
         <Button
             android:id="@+id/button"
             style="@style/TextViewPrimary2"
+            android:fontFamily="@font/ranchers"
             android:text="@string/china" />
 
         <Button
             android:id="@+id/button2"
             style="@style/TextViewPrimary2"
-            android:text="@string/kyrgyzstan" />
+            android:text="@string/kyrgyzstan"
+            android:fontFamily="@font/ranchers"/>
 
     </LinearLayout>
 
@@ -39,12 +41,14 @@
         <Button
             android:id="@+id/button3"
             style="@style/TextViewPrimary2"
-            android:text="@string/kazakhstan" />
+            android:text="@string/kazakhstan"
+            android:fontFamily="@font/ranchers"/>
 
         <Button
             android:id="@+id/button4"
             style="@style/TextViewPrimary2"
-            android:text="@string/russia" />
+            android:text="@string/russia"
+            android:fontFamily="@font/ranchers"/>
     </LinearLayout>
 
     <LinearLayout
