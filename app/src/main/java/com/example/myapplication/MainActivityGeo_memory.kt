@@ -9,10 +9,11 @@ class MainActivityGeo_memory : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_geo_memory)
-        val click = findViewById<Button>(R.id.but_train)
+
+        val button = findViewById<Button>(R.id.but_train)
 
 
-        click.setOnClickListener {
+        button.setOnClickListener {
             startActivity(Intent(this, MainActivityAncient::class.java))
         }
     }
