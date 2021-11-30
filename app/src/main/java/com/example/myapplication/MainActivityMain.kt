@@ -16,10 +16,10 @@ class MainActivityMain : AppCompatActivity() {
         click.setOnClickListener {
             startActivity(Intent(this, MainActivityAncient::class.java))
 
-            val click1 = findViewById<Button>(R.id.medieval_history)
+            val click1 = findViewById<Button>(R.id.general_button)
 
             click1.setOnClickListener {
-                startActivity(Intent(this, MainActivityAncient::class.java))
+                startActivity(Intent(this, MainActivityGenGeography::class.java))
 
 
 
