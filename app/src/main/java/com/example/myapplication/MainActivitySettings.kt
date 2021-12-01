@@ -11,11 +11,8 @@ class MainActivitySettings : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_settings)
 
-        val back = findViewById<ImageView>(R.id.imageView3)
 
-        back.setOnClickListener {
-            startActivity(Intent(this, MainActivityMain::class.java))
         }
     }
-}
+
 

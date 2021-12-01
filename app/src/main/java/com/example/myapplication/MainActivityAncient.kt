@@ -13,18 +13,7 @@ class MainActivityAncient : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_ancient)
-        //body
 
-        //body
-        //navbar
-        val navController = findViewById<BottomNavigationView>(R.id.navbar)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        val appBarConfiguration = AppBarConfiguration(setOf(
-            R.id.mainmenu
-
-                    setupActionBarWithNavController(navController, appBarConfiguration)
-                navView.setupWithNavController(navController
     }
-
+}
 

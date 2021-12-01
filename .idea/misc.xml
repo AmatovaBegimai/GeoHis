@@ -6,9 +6,15 @@
         <entry key="..\:/GeoHis/app/src/main/res/drawable/button_bg.xml" value="0.3828125" />
         <entry key="..\:/GeoHis/app/src/main/res/drawable/button_bg1.xml" value="0.3828125" />
         <entry key="..\:/GeoHis/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/GeoHis/app/src/main/res/layout/activity_main_ancient.xml" value="0.3625" />
+        <entry key="..\:/GeoHis/app/src/main/res/layout/activity_main_gen_geography.xml" value="0.3625" />
+        <entry key="..\:/GeoHis/app/src/main/res/layout/activity_main_geo_belgium.xml" value="0.3625" />
+        <entry key="..\:/GeoHis/app/src/main/res/layout/activity_main_main.xml" value="0.3625" />
         <entry key="..\:/GeoHis/app/src/main/res/layout/page4.xml" value="0.36666666666666664" />
         <entry key="..\:/GeoHis/app/src/main/res/layout/page_2.xml" value="0.36666666666666664" />
         <entry key="..\:/GeoHis/app/src/main/res/layout/page_3.xml" value="0.36666666666666664" />
+        <entry key="..\:/GeoHis/app/src/main/res/menu/nav_bar.xml" value="0.3625" />
+        <entry key="..\:/GeoHis/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37864583333333335" />
         <entry key="..\:/Software/GeoHisMain/app/src/main/res/drawable-v24/lose.xml" value="0.2324074074074074" />
         <entry key="..\:/Software/GeoHisMain/app/src/main/res/drawable-v24/lvl.xml" value="0.2324074074074074" />
         <entry key="..\:/Software/GeoHisMain/app/src/main/res/font/ranchers.xml" value="0.2324074074074074" />

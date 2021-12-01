@@ -11,11 +11,7 @@ class MainActivityProfile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_profile)
 
-            val click3 = findViewById<ImageButton>(R.id.imageView)
-
-            click3.setOnClickListener {
-                startActivity(Intent(this, MainActivitySettings::class.java))
 
             }
         }
-    }
+

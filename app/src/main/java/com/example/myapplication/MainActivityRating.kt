@@ -11,11 +11,5 @@ class MainActivityRating : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_rating)
 
-        val click3 = findViewById<ImageButton>(R.id.imageView)
-
-        click3.setOnClickListener {
-            startActivity(Intent(this, MainActivitySettings::class.java))
-
         }
     }
-}

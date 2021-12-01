@@ -10,11 +10,6 @@ class MainActivityLoseGame : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_lose_game)
 
-        val click = findViewById<Button>(R.id.but_train)
 
-
-        click.setOnClickListener {
-            startActivity(Intent(this, MainActivityAncient::class.java))
         }
     }
-}

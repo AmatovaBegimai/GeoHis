@@ -3,10 +3,8 @@ package kg.tsi.geohis
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageButton
-import android.widget.ImageView
-import androidx.cardview.widget.CardView
+
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivityMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,32 +12,33 @@ class MainActivityMain : AppCompatActivity() {
         setContentView(R.layout.activity_main_main)
 
 
-        val main = findViewById<Button>(R.id.ancient_his)
 
-        main.setOnClickListener {
-            startActivity(Intent(this, MainActivityAncient::class.java))
-        }
 
-        val maingeo = findViewById<Button>(R.id.general_button)
+            val bottomNav = findViewById<BottomNavigationView>(R.id.navbar)
+            bottomNav.setOnNavigationItemSelectedListener {
+                when (it.itemId) {
+                    R.id.menu_button -> {
+                        //todo переходы
 
-        maingeo.setOnClickListener {
-            startActivity(Intent(this, MainActivityGenGeography::class.java))
-        }
+                        //todo переходы
+                        true
+                    }
+                    R.id.home -> {
+                        //todo переходы
 
-        val mainset = findViewById<ImageView>(R.id.imageView)
+                        //todo переходы
+                        true
+                    }
 
-        mainset.setOnClickListener {
-            startActivity(Intent(this, MainActivitySettings::class.java))
-        }
+                    else -> false
+                }
+            }
+            //todo body
 
-        val mainprof = findViewById<ImageView>(R.id.imageView7)
-
-        mainprof.setOnClickListener {
-            startActivity(Intent(this, MainActivityProfile::class.java))
         }
 
 
     }
-}
+
 
 

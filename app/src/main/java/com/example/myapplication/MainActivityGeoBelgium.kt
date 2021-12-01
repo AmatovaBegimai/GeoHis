@@ -10,13 +10,6 @@ class MainActivityGeoBelgium : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_geo_belgium)
 
-        val click = findViewById<Button>(R.id.but_train)
-
-
-        click.setOnClickListener {
-            startActivity(Intent(this, MainActivityAncient::class.java))
-        }
-
 
     }
 }
