@@ -17,9 +17,24 @@ class MainActivityGeoMap : AppCompatActivity() {
             startActivity(Intent(this, MainActivityGenGeography::class.java))
             finish()
         }
-        val  maps = findViewById<LinearLayout>(R.id.linearLayout)
-        maps.setOnClickListener {
-            startActivity(Intent(this, MainActivityMain::class.java))
+        val button2 = findViewById<Button>(R.id.button)
+        button2.setOnClickListener {
+            startActivity(Intent(this, MainActivityLoseGame::class.java))
+            finish()
+        }
+        val button1 = findViewById<Button>(R.id.button2)
+        button1.setOnClickListener {
+            startActivity(Intent(this, MainActivityLoseGame::class.java))
+            finish()
+        }
+        val button3 = findViewById<Button>(R.id.button3)
+        button3.setOnClickListener {
+            startActivity(Intent(this, MainActivityLoseGame::class.java))
+            finish()
+        }
+        val button4 = findViewById<Button>(R.id.button4)
+        button4.setOnClickListener {
+            startActivity(Intent(this, MainActivityLoseGame::class.java))
             finish()
         }
     }
