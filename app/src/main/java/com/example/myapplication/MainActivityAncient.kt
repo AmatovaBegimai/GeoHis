@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.ui.AppBarConfiguration
@@ -14,6 +15,29 @@ class MainActivityAncient : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_ancient)
 
+        //navbar
+        val clickprofile = findViewById<ImageView>(R.id.imageView7)
+
+        clickprofile.setOnClickListener {
+            startActivity(Intent(this, MainActivityProfile::class.java))
+            finish()
+        }
+        val clickrating = findViewById<ImageView>(R.id.imageView9)
+
+        clickrating.setOnClickListener {
+            startActivity(Intent(this, MainActivityRating::class.java))
+            finish()
+
+        }
+        val clickmain = findViewById<ImageView>(R.id.imageView6)
+
+        clickmain.setOnClickListener {
+            startActivity(Intent(this, MainActivityMain::class.java))
+            finish()
+
+
+        }
+        //navbar
     }
 }
 

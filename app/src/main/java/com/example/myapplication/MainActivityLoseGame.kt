@@ -10,6 +10,19 @@ class MainActivityLoseGame : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_lose_game)
 
+        val clickmenu = findViewById<Button>(R.id.menu_button)
+
+        clickmenu.setOnClickListener {
+            startActivity(Intent(this, MainActivityMain::class.java))
+            finish()
+        }
+        val clicktry = findViewById<Button>(R.id.tryagain)
+
+        clicktry.setOnClickListener {
+            startActivity(Intent(this, MainActivityGeoBelgium::class.java))
+            finish()
+        }
+
 
         }
     }

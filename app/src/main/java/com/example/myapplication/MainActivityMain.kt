@@ -3,6 +3,8 @@ package kg.tsi.geohis
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import  android.widget.ImageView
 
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -11,36 +13,51 @@ class MainActivityMain : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_main)
 
+        val clickancient = findViewById<Button>(R.id.ancient_his)
 
+        clickancient.setOnClickListener {
+            startActivity(Intent(this, MainActivityAncient::class.java))
+            finish()
+        }
+        val clickgeo = findViewById<Button>(R.id.general_button)
 
+        clickgeo.setOnClickListener {
+            startActivity(Intent(this, MainActivityGenGeography::class.java))
+            finish()
+        }
+        val clicksettings = findViewById<ImageView>(R.id.imageView)
 
-            val bottomNav = findViewById<BottomNavigationView>(R.id.navbar)
-            bottomNav.setOnNavigationItemSelectedListener {
-                when (it.itemId) {
-                    R.id.menu_button -> {
-                        //todo переходы
-
-                        //todo переходы
-                        true
-                    }
-                    R.id.home -> {
-                        //todo переходы
-
-                        //todo переходы
-                        true
-                    }
-
-                    else -> false
-                }
-            }
-            //todo body
-
-
+        clicksettings.setOnClickListener {
+            startActivity(Intent(this, MainActivitySettings::class.java))
+            finish()
         }
 
 
 
-    }
+        //navbar
+        val clickprofile = findViewById<ImageView>(R.id.imageView7)
 
+        clickprofile.setOnClickListener {
+            startActivity(Intent(this, MainActivityProfile::class.java))
+            finish()
+        }
+        val clickrating = findViewById<ImageView>(R.id.imageView9)
+
+        clickrating.setOnClickListener {
+            startActivity(Intent(this, MainActivityRating::class.java))
+            finish()
+
+        }
+        val clickmain = findViewById<ImageView>(R.id.imageView6)
+
+        clickmain.setOnClickListener {
+            startActivity(Intent(this, MainActivityMain::class.java))
+            finish()
+
+
+        }
+        //navbar
+    }
+}
 
 

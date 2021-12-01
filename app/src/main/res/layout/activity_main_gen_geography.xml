@@ -85,6 +85,7 @@
 
             <Button
                 style="@style/medium"
+                android:id="@+id/but_train1"
                 android:layout_width="310dp"
                 android:layout_height="80dp"
                 android:background="@drawable/button_bg1"
@@ -100,6 +101,7 @@
 
             <Button
                 style="@style/medium"
+                android:id="@+id/map_but"
                 android:layout_width="310dp"
                 android:layout_height="80dp"
                 android:background="@drawable/button_bg1"
@@ -140,9 +142,7 @@
         android:background="@color/toolbarGH"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linear1">
-
+        app:layout_constraintStart_toStartOf="parent"/>
         <LinearLayout
             android:id="@+id/linearLayout3"
             android:layout_width="wrap_content"
@@ -205,5 +205,3 @@
                 android:text="@string/rating" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
