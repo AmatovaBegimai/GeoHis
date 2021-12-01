@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellowGH"
-    tools:context=".MainActivityProfile">
+    tools:context=".MainActivityProfile"
+    android:id="@+id/profileactivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
